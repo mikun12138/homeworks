@@ -13,11 +13,12 @@ fun Application.configureHTTP() {
     install(AsyncApiPlugin) {
         extension = AsyncApiExtension.builder {
             info {
-                title("Sample API")
-                version("1.0.0")
+                title("Health Manager API")
+                version("0.0.1")
             }
         }
     }
+
     routing {
         openAPI(path = "openapi")
     }
