@@ -1,4 +1,4 @@
-import { Children, useCallback, useState, type CSSProperties, type Dispatch, type PropsWithChildren, type SetStateAction } from "react"
+import { useCallback, type CSSProperties, type Dispatch, type PropsWithChildren, type SetStateAction } from "react"
 import "./SideBar.css"
 
 type Side = "left" | "right" | "top" | "bottom"
